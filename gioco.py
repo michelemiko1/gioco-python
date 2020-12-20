@@ -121,8 +121,11 @@ def cortile(protag):
 
 
 
+def main():
+    prima_prova()
+    protag = crea_personaggio()
+    primo_oggetto(protag)
+    loop_gioco(protag)
 
-prima_prova()
-protag = crea_personaggio()
-primo_oggetto(protag)
-loop_gioco(protag)
+if __name__ == "__main__":
+    main()
